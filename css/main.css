@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#container{}
+
+/*mainImage*/
+.mainImage{position: relative;height: 650px; overflow: hidden;margin: 0 3%;}
+.mainImage img{
+    width: 100%;
+}
+
+/*mainCon01_회사소개*/
+.mainCon01{text-align: center;padding-top: 150px;padding-bottom: 320px;position: relative;}
+.con01Tit{padding-bottom: 100px;}
+.con01 div{float: left;}
+.con01Left{width: 50%;}
+.con01Left img{}
+.con01Right{width: 50%;}
+.con01Right p{font-size: 15px;line-height: 30px;text-align: left;padding-left: 130px;padding-top: 70px;}
+.bg1{position: absolute;left: 0;top: 0; top: 100px;}
+.bg2{position: absolute;right: 0;bottom: 10px;}
+
+/*mainCon02_제품안내_단품*/
+.mainCon02{padding-bottom: 250px;}
+.mainCon02Tit{text-align: center;padding-bottom: 150px;}
+.con02Tit{text-align: center;padding-bottom: 100px;}
+.con02Tit img{padding-bottom: 20px;}
+.con02Tit p{font-size: 15px;line-height: 30px;}
+
+.con02Pd{}
+.con02Pd1{float: left;width: 50%; text-align: center;}
+
+.pdText{text-align: left;padding-left: 100px;}
+.pdText h3{font-size: 18px;padding-top: 10px;padding-bottom: 20px;}
+.pdText p{font-size: 15px;line-height: 25px;}
+.tag{padding-top: 25px;}
+.moreBtn{padding-top: 30px;}
+.moreBtn img{display: block;}
+
+/*mainCon03_제품안내_세트*/
+.mainCon03{padding-bottom: 250px;}
+
+/*mainCon04_인스타그램*/
+.mainCon04{background: #f1e2a7; margin-bottom: 150px;}
+.con04{}
+.con04Tit{text-align: center; font-size: 15px;padding-top: 30px;}
+.con04Tit p{font-size: 15px; padding-top: 10px;padding-bottom: 30px;}
+
+.instaMore{text-align: right;padding-bottom: 10px;}
+.instaMore p{font-size: 15px; }
+.instaMore span{padding-left: 5px; vertical-align: middle; padding-right: 40px;}
+.instaMore img{}
+
+.instaImage{padding-bottom: 60px;}
+.instaImage li{float: left; padding-right: 40px;}
+.instaImage li:first-child{padding-left: 40px;}
+.instaImage img{display: block;}

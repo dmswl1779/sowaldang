@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+}
+#header h1{}
+#header img{vertical-align: middle;}
+
+/*푸터*/
+#footer{position: relative; background: url(../images/footer.png);padding-bottom: 530px;}
+.bg3{position: absolute; left: 0; top: 0; top: -60px;}
+.bg4{position: absolute; right: 0; right: 50px;}
+
+.fText{font-size: 12px; padding-left: 300px;}
+.fText h5{font-size: 12px; padding-bottom: 20px;}
+.fText p{line-height: 25px;}
+.fText span{font-weight: bold; padding-right: 5px;}
+
+.fImage{text-align: center; overflow: hidden;}
+.fImage img{display: block;}
